@@ -17,7 +17,6 @@ cd projeto-computa-o-em-nuvem
 cp .env.example .env
 docker compose up -d --build
 ```
-
 ## Como acessar
 Abra http://localhost:8000 no navegador, digite seu nome, responda o quiz e clique em **Enviar**.
 O resultado aparece na lista "Últimos resultados".
@@ -30,3 +29,6 @@ Isso preserva os dados. Para apagar também o banco, use `docker compose down -v
 
 ## Configuração
 As variáveis ficam no arquivo `.env` (copiado do `.env.example`): `DB_USER`, `DB_PASSWORD` e `DB_NAME`. O `.env` não é versionado.
+
+## Autores
+Cesar Magagnin e Robson de Lima
